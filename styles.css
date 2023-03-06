@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background: #eee;
+    color: navy;
+}
+
+.info p {
+    font-style: italic;
+    color: #86898f;
+    margin: 0px;
+}
+
+.card {
+    border-radius: 13px;
+    background: #eafde9;
+    padding: 5px 20px 20px 20px;
+    margin-bottom: 20px;
+}
+
+.info h1 {
+    text-decoration: underline;
+    color: teal;
+}
+.card h3 {
+    text-decoration: underline;
+    color: teal;
+}
+.info {
+    background: #e8f092;
+    margin-top: 20px;
+}
+.site {
+    background: #e1ceed;
+}
+.work {
+    background: #f7e2b7;
+}
+.massage {
+    background: #fce5e4;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 20px;
+}
+.AvaS {
+    border-radius: 25px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+a:visited {
+    color: darkblue;
+}
+a:active {
+    color: orange;
+}
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+
+.table {
+    width: 100%;
+}
+.table td {
+    padding-bottom: 5px;
+}
+.table th:nth-child(1), .table th:nth-child(3) {
+    background: #e8f092;
+    border-radius: 5px;
+}
+.table th:nth-child(2) {
+    background: lightblue;
+    border-radius: 5px;
+}
+.table th {
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color: #111111;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+}
+.list li {
+    margin-bottom: 10px;
+    color: darkslateblue;
+    margin-left: 15px;
+}
